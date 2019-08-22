@@ -30,7 +30,9 @@ A tight and simple collection of usefull nunjucks snippets
 **link** 
 
 ```html
-<a href="{{ item.href.value }}" {% if item.href.target %}target="{{ item.href.target | default('_blank') }}"{% endif %}>{{ item.label }}</a>
+<a href="{{ item.href.value }}" {% if item.href.target %}target="{{ item.href.target | default('_blank') }}"{% endif %}>
+	{{ item.label }}
+</a>
 ```
 
 **row**
