@@ -1,0 +1,32 @@
+{
+    "name": "nunjucks-vscode-snippets",
+    "displayName": "Nunjucks VScode Snippets",
+    "description": "Nunjucks Snippets for Visual Studio Code",
+    "version": "0.0.1",
+    "icon": "images/icon.png",
+    "author": "Stephane Goeuriot",
+    "publisher": "stephanegoeuriot",
+    "bugs": {
+      "url": "https://github.com/stphn/nunjucks-vscode-snippets/issues"
+    },
+    "homepage": "https://github.com/stphn/nunjucks-vscode-snippets#readme",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/stphn/nunjucks-vscode-snippets"
+    },
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Snippets",
+        "Programming Languages"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "nunjucks, html, njk, nj",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
