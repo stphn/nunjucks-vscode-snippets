@@ -9,12 +9,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Initial release
 
 ## [0.0.2] - 2019-08-22
-### Fixed
-- corrected spacing inside brackets
-### Fixed
-- corrected wrong language definition
 
+### Fixed
+- Spacing inside brackets
+- Wrong language definition
 
 ## [0.0.1] - 2019-08-22
+
 ### Fixed
 - Compressed images, removed useless files and folder from package
