@@ -72,16 +72,16 @@
   "Bodytext Safe": {
     "prefix": "bdt",
     "body": [
-      "{{bodytext | safe}}"
+      "{{ bodytext | safe }}"
     ],
     "description": "Bodytext with safe tag"
   },
   "href": {
     "prefix": "link",
     "body": [
-      "<a href=\"{{ item.href.value }}\" {% if item.href.target %}target=\"{{ item.href.target | default('_blank') }}\"{% endif %}>",
-      "\t{{ item.label }}",
-      "</a>",
+      "<a href=\"{{ href.value }}\" {% if href.target %}target=\"{{ href.target }}\"{% endif %}>",
+      "\t{{ label }}",
+      "</a>"
     ],
     "description": "link"
   }
