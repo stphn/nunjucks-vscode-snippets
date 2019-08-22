@@ -21,20 +21,23 @@ A tight and simple collection of usefull nunjucks snippets
 | `elif`      | `elif`                                           |
 | `else`      | `else`                                           |
 
-bdt:
-``html
+**bdt**
+
+```html
 {{bodytext | safe}}
-``
+```
 
-link: 
-``html
+**link** 
+
+```html
 <a href="{{ item.href.value }}" {% if item.href.target %}target="{{ item.href.target | default('_blank') }}"{% endif %}>{{ item.label }}</a>
-``
+```
 
-row:
-``html
+**row**
+
+```html
 <div class="row">
 	<div class="column"></div>
 	<div class="column"></div>
 </div>
-``
+```
