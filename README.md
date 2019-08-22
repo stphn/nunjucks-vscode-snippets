@@ -20,6 +20,21 @@ A tight and simple collection of usefull nunjucks snippets
 | `ifel`      | `if elif`                                        |
 | `elif`      | `elif`                                           |
 | `else`      | `else`                                           |
-| `bdt`       | `{{ bodytext | safe }}`                          |
-| `link`      | `adds Malvid link formatting`                    |
-| `row`       | `adds BasicGrid row and columns`                 |
+
+bdt:
+```html
+"{{bodytext | safe}}"
+``
+
+link: 
+```html
+<a href="{{ item.href.value }}" {% if item.href.target %}target="{{ item.href.target | default('_blank') }}"{% endif %}>{{ item.label }}</a>
+``
+
+row:
+``` html
+<div class="row">
+	<div class="column"></div>
+	<div class="column"></div>
+</div>
+``
