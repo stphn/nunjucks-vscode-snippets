@@ -2,7 +2,7 @@
     "name": "nunjucks-vscode-snippets",
     "displayName": "Nunjucks VScode Snippets",
     "description": "Nunjucks Snippets for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "icon": "images/icon.png",
     "author": "Stephane Goeuriot",
     "publisher": "stephanegoeuriot",
@@ -24,7 +24,7 @@
     "contributes": {
         "snippets": [
             {
-                "language": "nunjucks, html, njk, nj",
+                "language": "nunjucks",
                 "path": "./snippets/snippets.json"
             }
         ]
