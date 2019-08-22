@@ -22,17 +22,17 @@ A tight and simple collection of usefull nunjucks snippets
 | `else`      | `else`                                           |
 
 bdt:
-```html
+``html
 "{{bodytext | safe}}"
 ``
 
 link: 
-```html
+``html
 <a href="{{ item.href.value }}" {% if item.href.target %}target="{{ item.href.target | default('_blank') }}"{% endif %}>{{ item.label }}</a>
 ``
 
 row:
-``` html
+``html
 <div class="row">
 	<div class="column"></div>
 	<div class="column"></div>
