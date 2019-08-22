@@ -20,6 +20,6 @@ A tight and simple collection of usefull nunjucks snippets
 | `ifel`      | `if elif`                                        |
 | `elif`      | `elif`                                           |
 | `else`      | `else`                                           |
-| `bdt`       | `bodytext | safe `                               |
+| `bdt`       | `bodytext | safe`                                |
 | `link`      | `adds Malvid link formatting`                    |
 | `row`       | `adds BasicGrid row and columns`                 |
