@@ -24,7 +24,7 @@ A tight and simple collection of usefull nunjucks snippets
 **bdt**
 
 ```html
-{{bodytext | safe}}
+{{ bodytext | safe }}
 ```
 
 **link** 
