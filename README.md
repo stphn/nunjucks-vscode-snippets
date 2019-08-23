@@ -6,7 +6,7 @@ A tight and simple collection of usefull nunjucks snippets
 
 ![Usage](images/usage.gif)
 
-### Snippets
+## Snippets
 
 | Prefix      | HTML Snippet Content                             |
 | ----------- | ------------------------------------------------ |
