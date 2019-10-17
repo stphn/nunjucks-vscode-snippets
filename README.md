@@ -1,5 +1,7 @@
 # nunjucks-vscode-snippets 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stphn/nunjucks-vscode-snippets.svg)](https://greenkeeper.io/)
+
 A tight and simple collection of usefull nunjucks snippets
 
 ## Usages
